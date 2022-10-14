@@ -5,117 +5,110 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=devive-width, initial-scale=1" />
     <title>William Chalk - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
-    <div class="backround">
-      <header>
-        <h1>&lt William Chalk &gt</h1>
-        <nav>
-          <ul class="navigation">
-            <li>
-              <a href="#about-me">&lt About Me &gt</a>
-            </li>
-            <li>
-              <a href="#work">&lt Work &gt</a>
-            </li>
-            <li>
-              <a href="#contact">&lt Contact &gt</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <section>
-        <div>
-          <h2 id="about-me">&lt About Me &gt</h2>
-          <div>
-            <p>
-              <!-- About Me -->
-              Hello, My name is William Chalk! I am currently enrolled in the
-              UNC coding bootcamp, and am enjoying the experience so far. Take a
-              look at my projectss and feel free to contact me!
-            </p>
-          </div>
-        </div>
-        <div>
-          <h2 id="work">&lt Work &gt</h2>
-          <div>
-            <!-- images -->
-            <div class="content">
-              <div class="column">
-                <h3>Content 1</h3>
-                <img
-                  src="./assets/images/coming-soon-word-metallic-text-style.jpg"
-                />
-                <div>
-                  <a
-                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
-                  ></a>
-                </div>
-              </div>
-              <div class="column">
-                <h3>Content 2</h3>
-                <img
-                  src="./assets/images/coming-soon-word-metallic-text-style.jpg"
-                />
-                <div>
-                  <a
-                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
-                  ></a>
-                </div>
-              </div>
-              <div class="column">
-                <h3>Content 3</h3>
-                <img
-                  src="./assets/images/coming-soon-word-metallic-text-style.jpg"
-                />
-                <div>
-                  <a
-                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
-                  ></a>
-                </div>
-              </div>
-              <div class="column">
-                <h3>Content 4</h3>
-                <img src="./assets/images/2 project.JPG" />
-                <div>
-                  <a
-                    href="https://hartsfieldt.github.io/project1-sportsstats/"
-                  ></a>
-                </div>
-              </div>
-              <div class="column last-image">
-                <h3>Content 5</h3>
-                <img src="./assets/images/run-buddy.JPG" />
-                <div>
-                  <a
-                    style="padding-top: 50%"
-                    href="https://william-chalk.github.io/run-buddy/"
-                  ></a>
-                </div>
-              </div>
+    <!-- Header -->
+    <header class="sticky-top">
+      <nav class="navbar bg-light">
+        <form class="container-fluid justify-content-end">
+          <a class="nav-btn btn btn-sm btn-outline-secondary" href="#about">About Me</a>
+          <a class="nav-btn btn btn-sm btn-outline-secondary" href="#skill">My Skills</a>
+          <a class="nav-btn btn btn-sm btn-outline-secondary" href="#work">My Work</a>
+          <a class="nav-btn btn btn-sm btn-outline-secondary" href="#contact">Contact Me</a>
+          <a class="nav-btn btn btn-sm btn-outline-secondary" href="#about" href="">Resume</a>
+        </form>
+      </nav>
+    </header>
+
+    <!-- About Me -->
+    <section id="about" class="about-me">
+      <h1>Hey, My name is William Chalk</h1>
+      <p>Take a look at my skills and work below!</p>
+    </section>
+    <!-- Skills -->
+    <section id="skill" class="skills">
+      <pre>
+       <span style="color: orange;"> { </span>
+            <span style="color:orange;">"</span>Frontend<span style="color:orange;">"</span>: <span style="color: lightblue;">[</span>
+                    <span style="color:orange;">"</span>HTML<span style="color:orange;">"</span><span style="color: lightblue;">,</span>
+                    <span style="color:orange;">"</span>CSS<span style="color:orange;">"</span><span style="color: lightblue;">,</span>
+                    <span style="color:orange;">"</span>Javascript<span style="color:orange;">"</span><span style="color: lightblue;">,</span>
+                    <span style="color:orange;">"</span>Jquery<span style="color:orange;">"</span><span style="color: lightblue;">,</span>
+                    <span style="color:orange;">"</span>Bootsrap<span style="color:orange;">"</span><span style="color: lightblue;">,</span>
+                    <span style="color:orange;">"</span>Bulma<span style="color:orange;">"</span>
+            <span style="color: lightblue;">]</span><span style="color: lightblue;">,</span>
+            <span style="color:orange;">"</span>Backend<span style="color:orange;">"</span>:<span style="color: lightblue;">[</span>
+                    <span style="color:orange;">"</span>Node.js<span style="color:orange;">"</span><span style="color: lightblue;">,</span>
+                    <span style="color:orange;">"</span>Express.js<span style="color:orange;">"</span><span style="color: lightblue;">,</span>
+                    <span style="color:orange;">"</span>SQL<span style="color:orange;">"</span>
+            <span style="color: lightblue;">]</span>
+        <span style="color: orange;"> } </span>
+      </pre>
+    </section>
+    <!-- Work -->
+    <section id="work" class="container">
+      <div class="row my-work">
+        <div class="col-6 card" style="width: 25rem;">
+          <img src="./assets/images/2 project.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h2>Technologies Used</h2>
+            <div class="tech">
+              <h2><i class="fa-brands fa-html5"></i></h2>       
+              <h2><i class="fa-brands fa-css3-alt"></i></h2>
+              <h2><i class="fa-brands fa-js"></i></h2>
+              <h2><i class="fa-brands fa-bootstrap"></i></h2>
+            </div>
+            <h2>Links</h2>
+            <div class="links">
+              <h4><a href="google.com"><span class="badge bg-secondary"><i class="fa-solid fa-globe"></i></span></a></h4>
+              <h4><a href="google.com"><span class="badge bg-secondary"><i class="fa-brands fa-github"></i></span></a></h4>
             </div>
           </div>
         </div>
-      </section>
-      <footer>
-        <div>
-          <h2 id="contact">&lt Contact Me &gt</h2>
-          <nav>
-            <ul class="navigation">
-              <li>
-                <a href="#">&lt Email &gt</a>
-              </li>
-              <li>
-                <a href="https://github.com/william-chalk">&lt GitHub &gt</a>
-              </li>
-              <li>
-                <a href="#">&lt Phone Number &gt</a>
-              </li>
-            </ul>
-          </nav>
+        <div class="col-4 card" style="width: 25rem;">
+          <img src="./assets/images/2 project.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h2>Technologies Used</h2>
+            <div class="tech">
+              <h2><i class="fa-brands fa-html5"></i></h2>       
+              <h2><i class="fa-brands fa-css3-alt"></i></h2>
+              <h2><i class="fa-brands fa-js"></i></h2>
+              <h2><i class="fa-brands fa-bootstrap"></i></h2>
+            </div>
+            <h2>Links</h2>
+            <div class="links">
+              <h4><a href="google.com"><span class="badge bg-secondary"><i class="fa-solid fa-globe"></i></span></a></h4>
+              <h4><a href="google.com"><span class="badge bg-secondary"><i class="fa-brands fa-github"></i></span></a></h4>
+            </div>
+          </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </section>
+    <!-- Contact Me -->
+    <section id="contact" class="contact-me">
+      <!-- <div class="alert alert-success alert-dismissible fade show" role="alert">
+        A simple success alert—check it out!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        A simple success alert—check it out!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div> -->
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="button">Submit</button>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
