@@ -5,9 +5,12 @@
     font-style: normal;
   }
 
+  .hero{
+    background-color: gray;
+  }  
+
   header{
     margin-bottom: 50px;
-    display: flexbox;
   }
 
   .nav-btn{
@@ -21,7 +24,7 @@
   }
 
   .about-me{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   .skills{
@@ -54,6 +57,10 @@
     padding-right: 10px;
   }
 
+  .links h4:hover{
+    font-size: 40px;
+  }
+
   .my-work{
     display: flex;
     margin-bottom: 50px;
@@ -67,11 +74,37 @@
     margin-bottom: 10px;
   }
 
-  .contact-me{
+  .email-input{
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin-left: 25%;
   }
+
+  .email-input label{
+    padding-right: 5px;
+  }
+
+  .message-input{
+    display: flex;
+    align-items: center;
+    margin-left: 24%;
+  }
+
+  .message-input label{
+    padding-right: 5px;
+  }
+
+  .message-input button{
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+  }
+
+  .message-input button:hover{
+    background-color: gray;
+  }
+
 
   .mb-3 input{
     height: 5vh;
